@@ -1,243 +1,47 @@
-<!doctype html>
-<html lang="en">
+<h1>Towards More Naturalistic Voice Conversion: Introducing the NaturalVoices Dataset with an Automatic Processing Pipeline. </h1>
 
-<head>
-  <meta name="google-site-verification" content="ftFOlJETX-2KNjaPh8W6s8lhigItRuu9fOmjHZZ0nY0" />
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<h3>The code and dataset will be released soon.</h3>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <title> NaturalVoices </title>
-</head>
-<style type="text/css">
-  table {
-    width: 100%;
-    table-layout: fixed;
-  }
-
-  audio {
-    width: 100%;
-  }
-
-  thead>tr>th:first-child {
-    width: 96px;
-  }
-td{
-	text-align: center;
-}
-	
-  @media (max-width: 767px) {
-    .big-screen {
-      display: none;
-    }
-  }
-
-  @media (min-width: 767px) {
-    .small-screen {
-      display: none;
-    }
-  }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-	
-</style>
-
-<body>
-  <header class="header">
-    <div class="jumbotron bg-secondary text-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-12">
-             <h1><a class="text-light"> Towards More Naturalistic Voice Conversion: Introducing the NaturalVoices Dataset with an Automatic Processing Pipeline. </a> </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <div class="row" id="result">
-        <div class="col-md-12">
-           <figcaption style="text-align:justify;"></font><font size=3> 
-		   <h1>The code and dataset will be released
-			   after the review process.</h1>
-          <b>Abstract</b>: 
-		   Voice conversion (VC) research traditionally depends on scripted or acted speech, which lacks the natural spontaneity of real-life conversations. 
-		   While natural speech data is limited for VC, our study focuses on filling in this gap. We introduce a novel data-sourcing pipeline that makes the 
-		   release of a natural speech dataset for VC, named NaturalVoices. The pipeline extracts rich information in speech such as emotion and signal-to-noise 
-		   ratio (SNR) from raw podcast data, utilizing recent deep learning methods and providing flexibility and ease of use. NaturalVoices marks a large-scale, 
-		   spontaneous, expressive, and emotional speech dataset, comprising over 4,000 hours speech sourced from the original podcasts in the MSP-Podcast dataset. 
-		   Objective and subjective evaluations demonstrate the effectiveness of using our pipeline for providing natural and expressive data for VC, suggesting the 
-		   potential of NaturalVoices for broader speech generation tasks.
-		   <br/> <br/>
+Voice conversion (VC) research traditionally depends on scripted or acted speech, which lacks the natural spontaneity of real-life conversations. 
+While natural speech data is limited for VC, our study focuses on filling in this gap. We introduce a novel data-sourcing pipeline that makes the 
+release of a natural speech dataset for VC, named NaturalVoices. The pipeline extracts rich information in speech such as emotion and signal-to-noise 
+ratio (SNR) from raw podcast data, utilizing recent deep learning methods and providing flexibility and ease of use. NaturalVoices marks a large-scale, 
+spontaneous, expressive, and emotional speech dataset, comprising over 4,000 hours speech sourced from the original podcasts in the MSP-Podcast dataset. 
+Objective and subjective evaluations demonstrate the effectiveness of using our pipeline for providing natural and expressive data for VC, suggesting the 
+potential of NaturalVoices for broader speech generation tasks.
+<br/> <br/>
 
 
-          <h2>---------------------------   Pipeline Architecture   --------------------------</h2>
-          <br />
-				
-		  		  <img src="./data/pipeline.png"  class="center" height="450" / > 
-	<p>
-				  <figcaption style="text-align:center;"></font><font size=3> 
-				   Figure 1. An illustration of our data sourcing pipeline with various modules. The code and dataset will be released after the review process. </font>
-				  </figcaption><br>
+<h2>Pipeline Architecture: </h2>
 
-			   
-				<div class="big-screen">
+![alt text](./data/pipeline.png)
+<figcaption style="text-align:center;"></font><font size=3> 
+	Figure 1. An illustration of our data sourcing pipeline with various modules. The code and dataset will be released after the review process. </font>
+</figcaption>
+<br>
 
-	   <h2>---------------------   Speech Samples Nautral Voices  ---------------------</h2>
 
-	<table >
 
-        <tr>
-			<td> Speakers </td>
-            <td>1
-                <audio controls>
-                    <source src="data/NV_Audios/speakers1.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>2
-                <audio controls>
-                    <source src="data/NV_Audios/speakers2.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>4
-                <audio controls>
-                    <source src="data/NV_Audios/speakers4.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-		
-		<tr>
-			<td> SNR </td>
-            <td>0
-                <audio controls>
-                    <source src="data/NV_Audios/snr_0.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>50
-                <audio controls>
-                    <source src="data/NV_Audios/snr_50.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>100
-                <audio controls>
-                    <source src="data/NV_Audios/snr_100.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-		<tr>
-			<td> Emotion </td>
-            <td>high arousal
-                <audio controls>
-                    <source src="data/NV_Audios/high_arousal.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>high dominance
-			
-                <audio controls>
-                    <source src="data/NV_Audios/high_dominance.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>high valence
-                <audio controls>
-                    <source src="data/NV_Audios/high_valence.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-			<tr>
-			<td> </td>
-            <td>low arousal
-                <audio controls>
-                    <source src="data/NV_Audios/low_arousal.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>low dominance
-			
-                <audio controls>
-                    <source src="data/NV_Audios/low_dominance.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td>low valence
-                <audio controls>
-                    <source src="data/NV_Audios/low_valence.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-	<tr>
-	    <td> Event Classiciation </td>
-			
-            <td> Cat
-                <audio controls>
-                    <source src="data/NV_Audios/cat.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td> clapping
-                <audio controls>
-                    <source src="data/NV_Audios/clapping.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td> sirens
-                <audio controls>
-                    <source src="data/NV_Audios/sirens.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-		
-	<tr>
-	    <td> Speech & Music </td>
-			
-            <td> music
-                <audio controls>
-                    <source src="data/NV_Audios/music1.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td> speech
-                <audio controls>
-                    <source src="data/NV_Audios/speech1.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-            <td> music
-                <audio controls>
-                    <source src="data/NV_Audios/music2.wav" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </td>
-        </tr>
-		
-    </table>
-				
-				 <h2>----------------------------   Speech Samples VC  ----------------------------</h2>
 
+<h2>Speech Samples Nautral Voices: </h2>
+
+| Category           | Sample 1 | Sample 2  | Sample 3  |
+|--------------------|----------|-----------|-----------|
+| **Speakers**       | 1        | 2         | 4         |
+|                    | [Audio](data/NV_Audios/speakers1.wav) | [Audio](data/NV_Audios/speakers2.wav) | [Audio](data/NV_Audios/speakers4.wav) |
+| **SNR**            | 0        | 50        | 100       |
+|                    | [Audio](data/NV_Audios/snr_0.wav) | [Audio](data/NV_Audios/snr_50.wav) | [Audio](data/NV_Audios/snr_100.wav) |
+| **Emotion**        | high arousal | high dominance | high valence |
+|                    | [Audio](data/NV_Audios/high_arousal.wav) | [Audio](data/NV_Audios/high_dominance.wav) | [Audio](data/NV_Audios/high_valence.wav) |
+|                    | low arousal  | low dominance  | low valence  |
+|                    | [Audio](data/NV_Audios/low_arousal.wav) | [Audio](data/NV_Audios/low_dominance.wav) | [Audio](data/NV_Audios/low_valence.wav) |
+| **Event Classification** | Cat    | Clapping   | Sirens     |
+|                    | [Audio](data/NV_Audios/cat.wav) | [Audio](data/NV_Audios/clapping.wav) | [Audio](data/NV_Audios/sirens.wav) |
+| **Speech & Music** | Music   | Speech     | Music      |
+|                    | [Audio](data/NV_Audios/music1.wav) | [Audio](data/NV_Audios/speech1.wav) | [Audio](data/NV_Audios/music2.wav) |
+
+
+<h2>Speech Samples VC: </h2>
 
 <h6> <b>Model:</b> TriAAN-VC[1] </h6>
 <h6> <b>Vocoder:</b> Parallel WaveGAN[2] </h6>
@@ -254,6 +58,9 @@ td{
 
 <br><br><br>
     <h2> Seen to seen speakers</h2>
+
+
+    
     <table >
         <tr>
 			<th>Type</th>
@@ -452,6 +259,8 @@ td{
         </tr>
 		
     </table>
+
+    
 <br><br><br>
 [1] Park, Hyun Joon, et al. "TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion." ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2023.
 <br>
