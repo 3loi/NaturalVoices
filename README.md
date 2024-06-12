@@ -16,7 +16,7 @@ potential of NaturalVoices for broader speech generation tasks.
 
 ![alt text](./data/pipeline.png)
 <figcaption style="text-align:center;"></font><font size=3> 
-	Figure 1. An illustration of our data sourcing pipeline with various modules. The code and dataset will be released after the review process. </font>
+	Figure 1. An illustration of our data sourcing pipeline with various modules. </font>
 </figcaption>
 <br>
 
