@@ -81,6 +81,23 @@ We provide the utterances from source speakers, denoted as *Source*, the utteran
 | Male to Male      | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Source_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_src.wav)   | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Target_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_trg.wav)   | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Converted_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_cnv_gen.wav)  |
 
 ---------------------------
+
+
+
+### Audios
+
+The audio files are zipped and uploaded in batches. Each file can be unzipped individually and is around 40GB so please ensure you have sufficient free storage space and be patient, as the download process may take some time.
+
+
+The audios will be saved in the `audios_zipped` in working directory. To download automatically download all the zipped files, please run the following command: 
+  ```
+  $ bash download_audios.sh
+  ```
+
+If you wish to manually download a file, please visit this [[website](https://lab-msp.com/MODELS/Odyssey_Baselines/)].
+
+
+
 To cite this work, please use the following BibTeX entry:
 
 ```
