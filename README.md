@@ -80,8 +80,21 @@ We provide the utterances from source speakers, denoted as *Source*, the utteran
 | Male to Female    | [Audio](data/Unseen_speaker_to_unseen_speaker/M_F_Source_from_MSP-PODCAST_0555_251_to_MSP-PODCAST_0114_71_src.wav)  | [Audio](data/Unseen_speaker_to_unseen_speaker/M_F_Target_from_MSP-PODCAST_0555_251_to_MSP-PODCAST_0114_71_trg.wav)  | [Audio](data/Unseen_speaker_to_unseen_speaker/M_F_Converted_from_MSP-PODCAST_0555_251_to_MSP-PODCAST_0114_71_cnv_gen.wav) |
 | Male to Male      | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Source_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_src.wav)   | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Target_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_trg.wav)   | [Audio](data/Unseen_speaker_to_unseen_speaker/M_M_Converted_from_MSP-PODCAST_0195_100_to_MSP-PODCAST_0292_1_cnv_gen.wav)  |
 
+---------------------------
+To cite this work, please use the following BibTeX entry:
 
-    
+```
+@InProceedings{Salman_2024,
+            author={A. N. Salman and Z. Du and S. S. Chandra and I. R. Ulgen and and C. Busso and B. Sisman},
+            title={Towards Naturalistic Voice Conversion: NaturalVoices Dataset with an Automatic Processing Pipeline},
+            booktitle={Interspeech 2024},
+            volume={To appear},
+            year={2024},
+            month={September},
+            address =  {Kos Island, Greece},
+}
+```
+
 ```
 [1] Park, Hyun Joon, et al. "TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion." ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2023.
 [2] Yamamoto, Ryuichi, Eunwoo Song, and Jae-Min Kim. "Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
