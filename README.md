@@ -106,7 +106,7 @@ To cite this work, please use the following BibTeX entry:
             author={A. N. Salman and Z. Du and S. S. Chandra and I. R. Ulgen and and C. Busso and B. Sisman},
             title={Towards Naturalistic Voice Conversion: NaturalVoices Dataset with an Automatic Processing Pipeline},
             booktitle={Interspeech 2024},
-            volume={To appear},
+            volume={},
             year={2024},
             month={September},
             address =  {Kos Island, Greece},
