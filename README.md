@@ -94,7 +94,7 @@ The audios will be saved in the `audios_zipped` in working directory. To downloa
   $ bash download_audios.sh
   ```
 
-If you wish to manually download a file, please visit this [[website](https://lab-msp.com/MODELS/Odyssey_Baselines/)].
+If you wish to manually download a file, please visit this [[website](https://lab-msp.com/NaturalVoices/audios_16khz)].
 
 ---------------------------
 
