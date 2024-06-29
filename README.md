@@ -14,7 +14,7 @@ NaturalVoices introduces a novel data-sourcing pipeline alongside the release of
 <br><br>
 
 
-To see an overview of audio segments visit this website [[website](https://naturalvoices.github.io/NaturalVoices/)].
+To see an overview of audio segments visit the Pages website [[website](https://3loi.github.io/NaturalVoices/)].
 
 ---------------------------
 
