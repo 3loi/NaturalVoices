@@ -1,3 +1,7 @@
+
+Note that this repository is currently being updated regularly. We aim to finalize the repository before the InterSpeech 2024 conference. If you have any questions, feel free to open a discussion in "Issues".
+
+
 # NaturalVoices Dataset & Pipeline
 
 
