@@ -67,18 +67,6 @@ NaturalVoices
 
 ```
 
----------------------------
-
-  #### TODO 
-  - [x] Upload 16KHz raw audio
-  - [x] Upload ASR output (Faster-Whisper)
-  - [x] Upload Diarization output (PyAnnote)
-  - [x] Upload Voice Activity Detection output (PyAnnote)
-  - [ ] Upload Gender & Age info
-  - [ ] Upload Signal-to-Noise ratio
-  - [ ] Upload Categorical and Attribute based emotion prediction
-  - [ ] Upload Sound Event predictions
-  - [ ] Upload the pipeline code
 
 
 ---------------------------
@@ -95,7 +83,18 @@ def load_pickle(file_path):
 ---------------------------
 
 
+  #### TODO 
+  - [x] Upload 16KHz raw audio
+  - [x] Upload ASR output (Faster-Whisper)
+  - [x] Upload Diarization output (PyAnnote)
+  - [x] Upload Voice Activity Detection output (PyAnnote)
+  - [ ] Upload Gender & Age info
+  - [ ] Upload Signal-to-Noise ratio
+  - [ ] Upload Categorical and Attribute based emotion prediction
+  - [ ] Upload Sound Event predictions
+  - [ ] Upload the pipeline code
 
+---------------------------
 
 To cite this work, please use the following BibTeX entry:
 
