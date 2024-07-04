@@ -67,6 +67,21 @@ NaturalVoices
 
 ```
 
+---------------------------
+
+  #### TODO 
+  - [x] Upload 16KHz raw audio
+  - [x] Upload ASR output (Faster-Whisper)
+  - [x] Upload Diarization output (PyAnnote)
+  - [x] Upload Voice Activity Detection output (PyAnnote)
+  - [ ] Upload Gender & Age info
+  - [ ] Upload Signal-to-Noise ratio
+  - [ ] Upload Categorical and Attribute based emotion prediction
+  - [ ] Upload Sound Event predictions
+  - [ ] Upload the pipeline code
+
+
+---------------------------
 
 For an example on how to open and show the meta-data there please open the 'code/example_demo.ipynb'. Each file inside the directories is a pickle file that can be loaded in Python using the following code:
 
