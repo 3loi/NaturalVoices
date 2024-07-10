@@ -27,7 +27,7 @@ To see an overview of audio segments visit the Pages website [[website](https://
 The audio files are zipped and uploaded in batches. Each file can be unzipped individually and is around 40GB so please ensure you have sufficient storage space and be patient, as the download process may take some time.
 
 
-The audios will be saved in the `audios_zipped` in working directory. To download automatically download all the zipped files, please run the following command: 
+The audios will be saved in the `audios_zipped` in working directory. To automatically download all the zipped files, please run the following command: 
   ```
   $ bash download_audios.sh
   ```
@@ -38,7 +38,7 @@ If you wish to manually download a file, please visit this [[website](https://la
 
 ### Downloading the meta-data
 
-The meta-data contains the output of running Faster-Whisper, PyAnnote (Diarization + Voice Activity Detection). 
+The meta-data contains the output of running Faster-Whisper, PyAnnote (Diarization + Voice Activity Detection + Speaker Overlap). 
 
 To download the meta-data run the following command:
   ```
@@ -71,7 +71,7 @@ NaturalVoices
 
 ---------------------------
 
-For an example on how to open and show the meta-data there please open the 'code/example_demo.ipynb'. Each file inside the directories is a pickle file that can be loaded in Python using the following code:
+For an example on how to open and show the meta-data please open the 'code/example_demo.ipynb' file. In summary: Each file inside the directories is a pickle file that can be loaded in Python using the following code:
 
 ```
 def load_pickle(file_path):
@@ -88,6 +88,7 @@ def load_pickle(file_path):
   - [x] Upload ASR output (Faster-Whisper)
   - [x] Upload Diarization output (PyAnnote)
   - [x] Upload Voice Activity Detection output (PyAnnote)
+  - [x] Upload speaker overlap output (PyAnnote)
   - [ ] Upload Gender & Age info
   - [ ] Upload Signal-to-Noise ratio
   - [ ] Upload Categorical and Attribute based emotion prediction
