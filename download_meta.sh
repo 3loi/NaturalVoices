@@ -22,9 +22,16 @@ download_vad() {
     rm vad.zip
 }
 
+download_overlap() {
+    echo "Downloading speaker overlap data"
+    wget https://lab-msp.com/NaturalVoices/pyannote_overlap.zip
+    unzip pyannote_overlap.zip
+    rm pyannote_overlap.zip
+}
 
 download_asr
 download_diarization
 download_vad
+download_overlap
 
 exit 0
