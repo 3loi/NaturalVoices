@@ -29,6 +29,15 @@ download_overlap() {
     rm pyannote_overlap.zip
 }
 
+download_utt() {
+    echo "Downloading the utterance data"
+    wget https://lab-msp.com/NaturalVoices/all_data.json
+}
+
+
+
+
+download_utt
 download_asr
 download_diarization
 download_vad
