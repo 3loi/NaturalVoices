@@ -24,7 +24,7 @@ To see an overview of audio segments visit the Pages website [[website](https://
 
 ### Downloading the audios
 
-The audio files are zipped and uploaded in batches. Each zip file can be unzipped individually and is around 40GB so please ensure you have sufficient storage space and be patient, as the download process may take some time.
+The audio files are zipped and uploaded in batches. Each zip file can be unzipped individually and is around 40GB so please ensure you have sufficient free storage and be patient, as the download process may take some time.
 
 
 The audios will be saved in the `audios_zipped` in working directory. To automatically download all the zipped files, please run the following command: 
@@ -38,7 +38,7 @@ If you wish to manually download a file, please visit this [[website](https://la
 
 ### Downloading the meta-data
 
-The meta-data contains the output of running Faster-Whisper, PyAnnote (Diarization + Voice Activity Detection + Speaker Overlap). 
+The meta-data contains the output of running Faster-Whisper, PyAnnote (Diarization + Voice Activity Detection + Speaker Overlap) and all_data.json which contains the utterance level predictions.
 
 To download the meta-data run the following command:
   ```
@@ -64,7 +64,7 @@ NaturalVoices
 	faster-whisper
 		MSP-PODCAST_0001
 		...
-
+	all_data.json
 ```
 
 
@@ -83,7 +83,7 @@ def load_pickle(file_path):
 ---------------------------
 
 # Running the pipeline
-The code used to generate the labels is located in [pieline_code](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code). There are three main steps we used to generate the labels.
+The code used to generate the labels is located in [pipeline_code](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code). There are three main steps we used to generate NaturalVoices.
 
 1. Run the podcast level code
     - This includes models that predict on the whole audio files
@@ -104,10 +104,10 @@ The code used to generate the labels is located in [pieline_code](https://github
   - [x] Upload Diarization output (PyAnnote)
   - [x] Upload Voice Activity Detection output (PyAnnote)
   - [x] Upload speaker overlap output (PyAnnote)
-  - [ ] Upload Gender & Age info
-  - [ ] Upload Signal-to-Noise ratio
-  - [ ] Upload Categorical and Attribute based emotion prediction
-  - [ ] Upload Sound Event predictions
+  - [x] Upload Gender & Age info
+  - [x] Upload Signal-to-Noise ratio
+  - [x] Upload Categorical and Attribute based emotion prediction
+  - [x] Upload Sound Event predictions
   - [x] Upload the pipeline code
 
 ---------------------------
