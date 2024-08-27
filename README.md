@@ -71,7 +71,7 @@ NaturalVoices
 
 ---------------------------
 
-For an example on how to open and show the meta-data please open the 'code/example_demo.ipynb' file. In summary: Each file inside the directories is a pickle file that can be loaded in Python using the following code:
+For an example on how to open and show the meta-data please open the [example_code](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/example_code.ipynb) file. In summary: Each file inside the directories is a pickle file that can be loaded in Python using the following code:
 
 ```
 def load_pickle(file_path):
