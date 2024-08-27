@@ -1,0 +1,7 @@
+dcase_util==0.2.5
+dateparser==0.6.0
+presets==0.1.3
+sed_eval==0.2.1
+keras-tcn==2.3.3
+hyperopt==0.1.1
+hyperas==0.4

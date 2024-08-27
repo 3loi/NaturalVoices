@@ -1,0 +1,18 @@
+{
+  "gtzan": {
+    "data_folder": "gtzan/audio",
+    "filelists_folder": "gtzan/filelists"
+  },
+  "musan": {
+    "data_folder": "musan/audio",
+    "filelists_folder": "musan/filelists"
+  },
+  "muspeak": {
+    "data_folder": "muspeak/audio",
+    "filelists_folder": "muspeak/filelists"
+  },
+  "esc-50": {
+    "data_folder": "esc-50/audio",
+    "filelists_folder": "esc-50/filelists"
+  }
+}
