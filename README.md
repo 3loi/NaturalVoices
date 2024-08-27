@@ -24,7 +24,7 @@ To see an overview of audio segments visit the Pages website [[website](https://
 
 ### Downloading the audios
 
-The audio files are zipped and uploaded in batches. Each file can be unzipped individually and is around 40GB so please ensure you have sufficient storage space and be patient, as the download process may take some time.
+The audio files are zipped and uploaded in batches. Each zip file can be unzipped individually and is around 40GB so please ensure you have sufficient storage space and be patient, as the download process may take some time.
 
 
 The audios will be saved in the `audios_zipped` in working directory. To automatically download all the zipped files, please run the following command: 
@@ -82,6 +82,21 @@ def load_pickle(file_path):
 
 ---------------------------
 
+# Running the pipeline
+The code used to generate the labels is located in [pieline_code](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code). There are three main steps we used to generate the labels.
+
+1. Run the podcast level code
+    - This includes models that predict on the whole audio files
+    - [faster_whisper](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/faster_whisper.ipynb), [pyannote_diarization.ipynb](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/pyannote_diarization.ipynb), [vad.ipynb](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/vad.ipynb)
+3. Create the utterances
+    - This step uses the segments from whisper to define the utterances
+    - [generate_utt](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/generate_utt.ipynb) 
+5. Run the utterance level code
+    - This step contains all remaining predictions
+    - [age_gender](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/age_detector/age_detector.ipynb), [emotional_attributes](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/emotions/pred_emo_attributes.ipynb), [emotional_categories](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/emotions/pred_emo_categorical.ipynb), [gender](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/gender-filter/gender_filter.ipynb), [SNR](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/music_noise/SNR.ipynb), [event_classification](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/music_noise/event_classification.ipynb), [speech_music](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/music_noise/speech_music_predict.ipynb)
+
+
+---------------------------
 
   #### TODO 
   - [x] Upload 16KHz raw audio
@@ -93,7 +108,7 @@ def load_pickle(file_path):
   - [ ] Upload Signal-to-Noise ratio
   - [ ] Upload Categorical and Attribute based emotion prediction
   - [ ] Upload Sound Event predictions
-  - [ ] Upload the pipeline code
+  - [x] Upload the pipeline code
 
 ---------------------------
 
