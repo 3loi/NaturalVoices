@@ -1,7 +1,3 @@
-
-Note that this repository is currently being updated regularly. We aim to finalize the repository before the InterSpeech 2024 conference. If you have any questions, feel free to open a discussion in "Issues".
-
-
 # NaturalVoices Dataset & Pipeline
 
 
@@ -84,6 +80,8 @@ def load_pickle(file_path):
 
 # Running the pipeline
 The code used to generate the labels is located in [pipeline_code](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code). There are three main steps we used to generate NaturalVoices.
+
+Before running the pipeline code, please update the [config.py](https://github.com/3loi/NaturalVoices/blob/main/pipeline_code/config.py) file with the correct pathways (output_path, vad_output_path, etc) for each output folder, as well as, the "auth_key" for pyannote/huggingface.
 
 1. Run the podcast level code
     - This includes models that predict on the whole audio files
