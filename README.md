@@ -1,3 +1,4 @@
+# We are reuploading the data with more files and using flac to reduce the size, the old wav files have been removed, we apologize for those who are downloading, but please wait a few days for the change to happen.
 # NaturalVoices Dataset & Pipeline
 
 
@@ -107,6 +108,8 @@ Before running the pipeline code, please update the [config.py](https://github.c
   - [x] Upload Categorical and Attribute based emotion prediction
   - [x] Upload Sound Event predictions
   - [x] Upload the pipeline code
+  - [ ] Change from wav to flac to save space
+  - [ ] Upload original sampling rate audios
 
 ---------------------------
 
