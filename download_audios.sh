@@ -9,11 +9,6 @@ urls=(
     "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_5.zip"
     "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_6.zip"
     "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_7.zip"
-    "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_8.zip"
-    "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_9.zip"
-    "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_10.zip"
-    "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_11.zip"
-    "https://lab-msp.com/NaturalVoices/audios_16khz/MSP_PODCAST_ZIP_12.zip"
 )
 
 # Directory to save downloaded zipped files
