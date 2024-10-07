@@ -108,7 +108,7 @@ Before running the pipeline code, please update the [config.py](https://github.c
   - [x] Upload Sound Event predictions
   - [x] Upload the pipeline code
   - [x] Change from wav to flac to save space
-  - [ ] Upload original sampling rate audios
+  - [x] Upload original sampling rate audios
   - [ ] Upload copyright of audios
 
 ---------------------------
