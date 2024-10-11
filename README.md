@@ -30,6 +30,14 @@ The audios will be saved in the `audios_zipped` in working directory. To automat
 
 If you wish to manually download a file, please visit this [[website](https://lab-msp.com/NaturalVoices/audios_16khz)].
 
+
+The previous download files are for 16khz, if you wish to download the original sampling rate please use the following command:
+  ```
+  $ bash download_audios_original.sh
+  ```
+
+If you wish to manually download a file, please visit this [[website](https://lab-msp.com/NaturalVoices/audios_original)].
+
 ---------------------------
 
 ### Downloading the meta-data
