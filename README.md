@@ -118,6 +118,7 @@ Before running the pipeline code, please update the [config.py](https://github.c
   - [x] Change from wav to flac to save space
   - [x] Upload original sampling rate audios
   - [ ] Upload copyright of audios
+  - [ ] Overlap sections with MSP-PODCAST and MSP-Conversation
 
 ---------------------------
 
